@@ -1,4 +1,4 @@
-import achievements from "./pics/achievements.png";
+import achievements from "../assets/achievements.png";
 
 const Achievements = () => {
   return (

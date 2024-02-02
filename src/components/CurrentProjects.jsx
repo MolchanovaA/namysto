@@ -1,7 +1,7 @@
 import { projects } from "./infoForComponents./generalInfo";
-import school from "./pics/school.jpeg";
-import aidhub from "./pics/aidhub.jpg";
-import meetups from "./pics/meetups.jpg";
+import school from "../assets/school.jpeg";
+import aidhub from "../assets/aidhub.jpg";
+import meetups from "../assets/meetups.jpg";
 
 const CurrentProjects = () => {
   const proj_pics = {

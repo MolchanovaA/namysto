@@ -1,12 +1,12 @@
 import { pastProjects } from "./infoForComponents./generalInfo";
-import easter from "./pics/Easter.gif";
-import vyshyvanka from "./pics/vyshyvanka.jpg";
-import openGarden from "./pics/openGarden.jpg";
-import EuropeDay from "./pics/EuropeDay.jpg";
-import UnbreakableWomen from "./pics/UnbreakableWomen.jpg";
-import RockForUkraine from "./pics/RockForUkraine.jpg";
-import fundraiser from "./pics/fundraiser.jpg";
-import market from "./pics/market.jpg";
+import easter from "../assets/Easter.gif";
+import vyshyvanka from "../assets/vyshyvanka.jpg";
+import openGarden from "../assets/openGarden.jpg";
+import EuropeDay from "../assets/EuropeDay.jpg";
+import UnbreakableWomen from "../assets/UnbreakableWomen.jpg";
+import RockForUkraine from "../assets/RockForUkraine.jpg";
+import fundraiser from "../assets/fundraiser.jpg";
+import market from "../assets/market.jpg";
 
 const PastProjects = () => {
   const proj_pics = {

@@ -1,6 +1,6 @@
 import { aboutUs } from "./infoForComponents./generalInfo";
 import { useState, useEffect } from "react";
-import mainPhoto from "./pics/main-photo.jpeg";
+import mainPhoto from "../assets/main-photo.jpeg";
 
 const Home = () => {
   const [articles, setArticles] = useState("");

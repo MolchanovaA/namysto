@@ -3,7 +3,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { Link, NavLink } from "react-router-dom";
-import logo from "./pics/logo.png";
+import logo from "../assets/logo.png";
 import "./styles/header.css";
 
 const Header = ({ setMenuRequest }) => {
