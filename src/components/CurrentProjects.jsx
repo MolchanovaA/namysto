@@ -30,7 +30,7 @@ const CurrentProjects = () => {
         {projects.map((project, i) => {
           return (
             <li key={i} className="projects_list">
-              <h2>{project.name}</h2>
+              <div className="sub_header">{project.name}</div>
               <div className="project_descr">{project.article}</div>
               <div className="pic-container">
                 <img src={`${proj_pics[project.photo]}`} alt={project.name} />

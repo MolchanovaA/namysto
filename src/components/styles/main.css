@@ -67,8 +67,8 @@ body {
   border-bottom: 2px solid var(--main-sections-color);
   opacity: 0.5;
 }
-.projects_list h2,
-.articles h2 {
+.projects_list div.sub-header,
+.articles div.sub-header {
   margin-left: 30px;
   color: var(--main-sections-color);
 }

@@ -17,10 +17,10 @@ const SupportUs = () => {
         enhance our support initiatives.
       </p>
       <p className="bank_details">
-        <h3> Account holder: NAMYSTO</h3>
-        <h3> Sort code: 23-14-70</h3>
-        <h3> Account number: 34389987</h3>
-        <h3>IBAN: GB33 TRWI 2314 7034 3899 87</h3>
+        <div> Account holder: NAMYSTO</div>
+        <div> Sort code: 23-14-70</div>
+        <div> Account number: 34389987</div>
+        <div>IBAN: GB33 TRWI 2314 7034 3899 87</div>
       </p>
     </section>
   );

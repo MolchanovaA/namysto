@@ -16,7 +16,7 @@ const Media = () => {
         {mediaInfo.map((mediaArticle) => {
           return (
             <li className="articles">
-              <h2>{mediaArticle.name} :</h2>
+              <div className="sub_header">{mediaArticle.name} :</div>
               <a href={mediaArticle.link} target="_blank">
                 {mediaArticle.linkDescr}
               </a>
