@@ -21,12 +21,12 @@ function App() {
       <Header setMenuRequest={setMenuRequest} />
       <Routes>
         <Route path="/namysto/" element={<Home />} />
-        <Route path="/namysto/contacts" element={<Contacts />} />
-        <Route path="/namysto/support-us" element={<SupportUs />} />
-        <Route path="/namysto/media" element={<Media />} />
-        <Route path="/namysto/past-projects" element={<PastProjects />} />
-        <Route path="/namysto/current-projects" element={<CurrentProjects />} />
-        <Route path="/namysto/achievements" element={<Achievements />} />
+        <Route path="/contacts" element={<Contacts />} />
+        <Route path="/support-us" element={<SupportUs />} />
+        <Route path="/media" element={<Media />} />
+        <Route path="/past-projects" element={<PastProjects />} />
+        <Route path="/current-projects" element={<CurrentProjects />} />
+        <Route path="/achievements" element={<Achievements />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
       <Footer />
