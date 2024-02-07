@@ -20,7 +20,7 @@ function App() {
       {" "}
       <Header setMenuRequest={setMenuRequest} />
       <Routes>
-        <Route path="/namysto" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/contacts" element={<Contacts />} />
         <Route path="/support-us" element={<SupportUs />} />
         <Route path="/media" element={<Media />} />
