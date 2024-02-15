@@ -108,6 +108,14 @@ export const pastProjects = [
 
 export const media = [
   {
+    id: 32,
+    photo: "",
+    name: "Cambridge Independent",
+    article: [""],
+    link: "https://www.cambridgeindependent.co.uk/news/cambridge-ukrainian-school-hosts-celebration-for-chinese-new-9353019/",
+    linkDescr: "Chinese New Year celebrated with Cambridge Ukrainian School",
+  },
+  {
     id: 31,
     photo: "",
     name: "Cambridge Independent",
