@@ -5,7 +5,6 @@ const Article = ({ article }) => {
   useEffect(() => {
     setPargraphs(article);
   }, [article]);
-
   return (
     <li>
       <article>

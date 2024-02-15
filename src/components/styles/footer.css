@@ -3,7 +3,8 @@
   padding: 10px;
   border-top: 2px solid var(--main-sections-color);
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  font-size: 0.7em;
 }
 
 .footer-section a {

@@ -22,14 +22,22 @@ export const projects = [
       "Here at our school, we provide the perfect environment for a deep dive into the Ukrainian language and traditions. It's a place where children can make new friends and embark on a cultural journey that`s both enriching and exciting. Join us in building a brighter future for our Ukrainian community!",
     ],
     link: "https://www.facebook.com/groups/563617575986689/announcements",
-    linkDescr: "FACEBOOK",
+    linkDescr: "School group in FB",
+    registration:
+      "https://docs.google.com/forms/d/1yP4Dwiq3RN4XZAlIeaXWs2iUjeztxN_-w1kbh2wPKac/viewform?fbclid=IwAR0n4-so38ildsLkTQhy7JEurQfgU6pL-nOTX_7mor5dDDRplYo-kEGnXtM&edit_requested=true",
   },
   {
     id: 2,
     photo: "meetups",
     name: "Ukrainian MeetUps",
     article: [
-      "Every Saturday Ukrainians gather from 13:30 to 15:30 at Friends_Meeting_House in the heart of Cambridge. Join us for tea, coffee, snacks, friendly conversations, board games, and a positive thinking session! This meetup is designed for those seeking a delightful time, a chance to articulate their dreams, and enhance their happiness. The venue is Friends_Meeting_House (home of the Ukrainian school) at 12 Jesus Lane, Cambridge, CB5 8BA. Feel free to bring snacks to share during our tea time and enjoyable conversations – cookies, fruits, veggies, anything bite-sized! We look forward to seeing everyone there! ",
+      "Every Saturday Ukrainians gather from 13:30 to 18:30 at Friends_Meeting_House in the heart of Cambridge. Join us for tea, coffee, snacks, friendly conversations, board games, and a positive thinking session! This meetup is designed for those seeking a delightful time, a chance to articulate their dreams, and enhance their happiness. The venue is Friends_Meeting_House (home of the Ukrainian school) at 12 Jesus Lane, Cambridge, CB5 8BA. Feel free to bring snacks to share during our tea time and enjoyable conversations – cookies, fruits, veggies, anything bite-sized! We look forward to seeing everyone there! ",
+    ],
+    schedule: [
+      "1:30 PM - 3:30 PM - Positive Habits Club",
+      "2:00 PM - 4:00 PM - Board Games ",
+      "3:00 PM - 5:00 PM - Mafia Game for Beginners",
+      "4:00 PM - 6:30 PM - Movie Screening ",
     ],
     link: "",
   },
@@ -41,7 +49,8 @@ export const projects = [
       "We are planning to hold several Aid Hub sessions at Cherry Hinton Baptist Church. Each session will last for about 2 hours.",
       " Visitors can enjoy tea/coffee, biscuits, and chat with friends during these sessions. Additionally, they can take for free food, personal hygiene products, clothes, and toys. We are working on enhancing the list of available products.",
     ],
-    link: "",
+    linkDescr: "Receive updates about the Aid Hub",
+    link: "https://forms.gle/V3m4wcoVJuvfSMKw8",
   },
 ];
 

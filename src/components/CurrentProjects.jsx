@@ -2,6 +2,7 @@ import { projects } from "./infoForComponents./generalInfo";
 import school from "../assets/school.jpeg";
 import aidhub from "../assets/aidhub.jpg";
 import meetups from "../assets/meetups.jpg";
+import Article from "./Article";
 
 const CurrentProjects = () => {
   const proj_pics = {
@@ -32,12 +33,20 @@ const CurrentProjects = () => {
             <li key={i} className="projects_list">
               <div className="sub_header">{project.name}</div>
               <div className="project_descr">{project.article}</div>
+
               <div className="pic-container">
                 <img src={`${proj_pics[project.photo]}`} alt={project.name} />
               </div>
               {project.link ? (
                 <a href={project.link} target="_blank">
                   {project.linkDescr}
+                </a>
+              ) : (
+                ""
+              )}
+              {project.registration ? (
+                <a href={project.registration} target="_blank">
+                  Register for the school
                 </a>
               ) : (
                 ""
